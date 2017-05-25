@@ -14,7 +14,7 @@
   },
   "main": "./index",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --ui exports test"
+    "test": "mocha --ui exports test"
   },
   "engines": {
     "node": ">=0.8 <0.13 || ^1"
